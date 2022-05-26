@@ -6,12 +6,12 @@ from snowflake import connector
 def connect(query):
     global content
     ctx = snowflake.connector.connect(
-        user='SVC_BLACKBOARD_DATA',
-        password='9TW3t31U0Ne#',
-        account='jcxbjjc-prod_5f28363662504_sf',
-        warehouse='BLACKBOARD_DATA_WH',
-        database='BLACKBOARD_DATA_2D3D65372DD04D7291A3E70BEF3A2F5C',
-        schema='CMD_LMS'
+        user='xxxxxxx',
+        password='xxxxxxx,
+        account='xxxxxx',
+        warehouse='xxxxxxx',
+        database='xxxxxx',
+        schema='xxxxxxx'
     )
     cs = ctx.cursor()
     try:
